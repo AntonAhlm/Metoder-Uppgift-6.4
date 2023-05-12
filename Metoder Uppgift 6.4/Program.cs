@@ -3,7 +3,7 @@ class Program
 {
     static void Potens(int tal1, int tal2)
     {
-        Console.WriteLine(tal1 + "^" + tal2 + " = " + (tal1**tal2));
+        Console.WriteLine(tal1 + "^" + tal2 + " = " + Math.Pow(tal1,tal2));
     }
 
     static void Main(string[] args)
